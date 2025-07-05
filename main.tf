@@ -3,6 +3,11 @@ resource "azurerm_resource_group" "rg" {
   location = "West Europe"
 }
 
+resource "azurerm_resource_group" "rg02" {
+  name = "rg-row"
+  location = "central india"
+}
+
 resource "azurerm_storage_account" "stg" {
   name                     = "teststorageacct"
   resource_group_name      = "test-rg"
