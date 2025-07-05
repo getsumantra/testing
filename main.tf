@@ -11,6 +11,6 @@ resource "azurerm_virtual_network" "vnet" {
 }
 
 resource "azurerm_resource_group" "rg02" {
-  name = "test-rg02"
+  name = "test-rg03"
   location = "west europe"
 }
