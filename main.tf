@@ -10,10 +10,7 @@ resource "azurerm_virtual_network" "vnet" {
   resource_group_name = "West Europe"
 }
 
-resource "azurerm_storage_account" "stg" {
-  name                     = "teststorageacct"
-  resource_group_name      = "test-rg"
-  location                 = "West Europe"
-  account_tier             = "Standard"
-  account_replication_type = "LRS"
+resource "azurerm_resource_group" "rg02" {
+  name = "test-rg02"
+  location = "west europe"
 }
