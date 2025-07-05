@@ -10,8 +10,8 @@ resource "azurerm_virtual_network" "vnet" {
   resource_group_name = "West Europe"
 }
 
-resource "azurerm_storage_account" "stg" {
-  name                     = "teststorageacct"
+resource "azurerm_storage_account" "stg01" {
+  name                     = "teststorageacct1"
   resource_group_name      = "test-rg"
   location                 = "West Europe"
   account_tier             = "Standard"
