@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "rg02" {
-  name     = "rg-sample02"
+resource "azurerm_resource_group" "rg03" {
+  name     = "rg-sample03"
   location = "West Europe"
 }
